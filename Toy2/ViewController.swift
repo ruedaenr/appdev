@@ -63,12 +63,13 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        if(UserDefaults.standard.object(forKey: "name") != nil && UserDefaults.standard.object(forKey: "class") != nil){
+        if(UserDefaults.standard.object(forKey: "name") != nil){
             let name = UserDefaults.standard.string(forKey: "name")
             let classYr = UserDefaults.standard.string(forKey: "class")
             DisplayLabel.text = "Welcome, " + name! + " of " + classYr! + "!"
             enterClearMode()
         }else{
+            print("nothing!")
             enterSubmitMode()
         }
     }
