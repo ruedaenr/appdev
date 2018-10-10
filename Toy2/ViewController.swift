@@ -13,16 +13,10 @@ class ViewController: UIViewController {
     var submitted : Bool = false
     
     @IBOutlet weak var NameLabel: UILabel!
-    
     @IBOutlet weak var ClassLabel: UILabel!
-    
     @IBOutlet weak var ClassTextField: UITextField!
-   
-    
     @IBOutlet weak var NameTextField: UITextField!
-    
     @IBOutlet weak var SubmitButton: UIButton!
-    
     @IBOutlet weak var DisplayLabel: UILabel!
    
     func enterClearMode() -> Void {

@@ -14,6 +14,8 @@
 		C16DF87021605BA8001BEA13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16DF86E21605BA8001BEA13 /* LaunchScreen.storyboard */; };
 		C16DF87B21605BA8001BEA13 /* Toy2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DF87A21605BA8001BEA13 /* Toy2Tests.swift */; };
 		C16DF88621605BA8001BEA13 /* Toy2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DF88521605BA8001BEA13 /* Toy2UITests.swift */; };
+		C19557B6216D88B900955820 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19557B5216D88B900955820 /* CatTableViewCell.swift */; };
+		C19557B8216D8AB100955820 /* CatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19557B7216D8AB100955820 /* CatTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C16DF88121605BA8001BEA13 /* Toy2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Toy2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16DF88521605BA8001BEA13 /* Toy2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy2UITests.swift; sourceTree = "<group>"; };
 		C16DF88721605BA8001BEA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19557B5216D88B900955820 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
+		C19557B7216D8AB100955820 /* CatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C16DF86521605BA7001BEA13 /* AppDelegate.swift */,
 				C16DF86721605BA7001BEA13 /* ViewController.swift */,
+				C19557B7216D8AB100955820 /* CatTableViewController.swift */,
+				C19557B5216D88B900955820 /* CatTableViewCell.swift */,
 				C16DF86921605BA7001BEA13 /* Main.storyboard */,
 				C16DF86C21605BA8001BEA13 /* Assets.xcassets */,
 				C16DF86E21605BA8001BEA13 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19557B6216D88B900955820 /* CatTableViewCell.swift in Sources */,
 				C16DF86821605BA7001BEA13 /* ViewController.swift in Sources */,
+				C19557B8216D8AB100955820 /* CatTableViewController.swift in Sources */,
 				C16DF86621605BA7001BEA13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
